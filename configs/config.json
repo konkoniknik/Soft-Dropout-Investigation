@@ -1,0 +1,16 @@
+{   "experiment":
+    {
+        "name":"CIFAR10",
+        "preprocessing_module":"preprocessing.cifar10_preprocessing",
+        "preprocessing_function":"cifar10_preprocessing",
+        "data_params": {
+            "val_split": 0.1,
+            "batch_size": 128
+        },
+        "train_params":{
+            "epochs":50,
+            "lr":0.001
+        }
+        
+    }
+}
